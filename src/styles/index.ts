@@ -17,8 +17,15 @@ export const Container = styled.div`
   // background-color: red;
   padding: 64px 64px;
   // padding-bottom: 64px;
-
   border-radius: 16px;
+
+  @media (max-width: 768px) {
+    width: 80%;
+  }
+
+  @media (min-width: 769px) and (max-width: 1023px) {
+    width: 80%;
+  }
 `
 
 export const MainContainer = styled.main`
